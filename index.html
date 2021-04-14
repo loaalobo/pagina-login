@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de acesso</title>
+    <link rel="stylesheet" href="style-main.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="conteiner">
+
+        <header class="titulo">
+            <img src="https://pbs.twimg.com/media/EPxvlKoU8AAH4sK.jpg" alt="foto-perfil">
+            <h1>Painel de Controle</h1>
+            <h2>Gerenciar seu Negócio</h2>
+        </header>
+
+        <section class="informacoes-login">
+            <p>Email <br> <input type="text" placeholder="digite seu email" class="txtemail" autofocus></p>
+            <p>Senha <br> <input type="number" placeholder="********" class="txtsenha"></p>
+            <p><input type="checkbox" name="lembrarUsuario" id="lembrarUsuario"> <label for="lembrarUsuario">Lembrar-me</label></p>
+        </section>
+
+        <div id="acessar">
+            <button class="botao" onclick="acessar()">ACESSAR</button>
+        </div>
+    </div>
+
+    <script>
+       function acessar(){
+        var email = document.querySelector('input.txtemail').value
+        var senha = document.querySelector('input.txtsenha').value
+
+        if (email.length == 0 || senha.length == 0) {
+            alert('Para prosseguir, informe email e senha.')
+        } else {
+            alert(`Bem-vindo(a), ${email}!`)
+        }
+       }
+    </script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteiner {
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.453);
+    border-radius: 2px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.234);
+    padding: 40px;
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    font-size: 20pt;
+    color: rgb(221, 4, 4);
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 12pt;
+    font-weight: normal;
+}
+
+.informacoes-login {
+    text-align: justify;
+    font-size: 11pt;
+    font-weight: lighter;
+}
+
+.txtemail, .txtsenha {
+    width: 250px;
+    border: 1px solid gray;
+    border-radius: 2pt;
+}
+
+.botao {
+    width: 250px;
+    height: 30px;
+    border-radius: 15pt;
+    border: 1px solid rgba(128, 128, 128, 0.453);
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.898)60%, rgba(174, 3, 3, 0.94), rgba(73, 2, 2, 0.946));
+    color: white;
+    font-size: 8pt;
+}
