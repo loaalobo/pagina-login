@@ -27,6 +27,7 @@ h1 {
     font-size: 20pt;
     color: rgb(221, 4, 4);
     font-weight: normal;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.515);
 }
 
 h2 {
